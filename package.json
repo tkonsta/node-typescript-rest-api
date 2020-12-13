@@ -1,0 +1,21 @@
+{
+  "name": "typescript-rest-api",
+  "version": "1.0.0",
+  "description": "Assembling the building blocks for a node.js based REST-API using Typescript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkonsta/node-typescript-rest-api.git"
+  },
+  "author": "tkonsta",
+  "bugs": {
+    "url": "https://github.com/tkonsta/node-typescript-rest-api/issues"
+  },
+  "homepage": "https://github.com/tkonsta/node-typescript-rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
