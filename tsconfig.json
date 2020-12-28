@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+      "outDir": "dist",
+      "sourceMap": true,
+      "noImplicitAny": false
+    },
+    "files": [
+      "./node_modules/@types/mocha/index.d.ts",
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
